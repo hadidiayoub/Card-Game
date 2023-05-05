@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    margin: auto;
+    width: 300px; 
+    text-align: center;
+  }
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    /*margin: auto;*/
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.10);
+    background-color:white ;
+    border: none;
+    color: #757575;
+  }
+
+  body {
+    margin: auto;
+    width: 800px; 
+    padding: 50px;
+    font-family: 'Monaco', sans-serif; 
+    color: #383838;    
+  }
+
+  img{
+    height: 100px;
+    width: 100px;
+    /*visibility: hidden;
+    display: none;*/
+  }
+
+  img:hover{
+    cursor: pointer;
+  }
+  hr{
+    clear: both;
+    visibility: hidden;
+  }
+  div.jeu{
+    height: 520px;
+    width: 520px;
+  }
+  div.case{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    /*background-color: #757575;*/
+  }
+ .jeu{
+    margin: auto;
+    width: 300px; 
+    text-align: center;
+ }
